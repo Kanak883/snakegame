@@ -5,7 +5,7 @@ import java.sql.*;
 public class DBManager {
     private static final String URL = "jdbc:mysql://localhost:3306/snakegame";
     private static final String USER = "root";
-    private static final String PASSWORD = "MySQLBoi@69"; // replace with your MySQL root password
+    private static final String PASSWORD = "MySQLBoi@69";
 
     public static void saveScore(int score) {
         try {
